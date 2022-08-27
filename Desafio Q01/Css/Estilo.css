@@ -1,0 +1,40 @@
+body {
+    background: -webkit-linear-gradient(left, #e70087 0%, #df2591 50%, #f100b5 100%);
+}
+
+#valorA,
+#valorB,
+#valorC {
+    width: 65px;
+}
+
+#resultado {
+    width: 295px;
+}
+
+#valorA,
+#valorB,
+#valorC,
+#resultado {
+    border-color: rgb(255, 0, 149);
+    border-radius: 5px;
+}
+
+#aviso {
+    color: rgb(251, 255, 0);
+}
+
+#buscar {
+    background-color: rgb(241, 0, 229);
+    border-color: rgb(241, 0, 229);
+    border-radius: 5px;
+    width: 370px;
+
+}
+
+#buscar:hover {
+    transition-property: backgroud-color, border-color, text-transform;
+    transition-duration: 5s;
+    text-transform: uppercase;
+    background-color: rgb(255, 0, 191);
+}
