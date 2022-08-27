@@ -1,0 +1,32 @@
+#resultado {
+    width: 1200px;
+}
+
+body {
+    background: -webkit-linear-gradient(left, #ff0000 0%, #e23a3a 50%, #fa5050 100%);
+}
+
+#valor {
+    width: 65px;
+}
+
+#valor,
+#resultado {
+    border-color: rgb(255, 0, 0);
+    border-radius: 5px;
+}
+
+#buscar {
+    background-color: rgb(163, 14, 4);
+    border-color: rgb(163, 14, 4);
+    border-radius: 5px;
+    width: 385px;
+
+}
+
+#buscar:hover {
+    transition-property: backgroud-color, border-color, text-transform;
+    transition-duration: 5s;
+    text-transform: uppercase;
+    background-color: rgb(0, 255, 42);
+}
